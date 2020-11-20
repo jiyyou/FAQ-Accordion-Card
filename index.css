@@ -5,10 +5,64 @@
   text-decoration: none;
 }
 
+main {
+  background-image: linear-gradient(to bottom, #af67e9, #6565e7);
+  height: 100vh;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.mobileimage {
+  position: absolute;
+  left: 11%;
+  top: 4%;
+  z-index: 1;
+}
+
 .card {
+  position: relative;
+  padding: 8rem 1rem 1rem 1rem;
+  margin-top: 7rem;
   background-color: white;
   background-image: url("./images/bg-pattern-mobile.svg");
   background-repeat: no-repeat;
+  background-position: center top;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px black;
+}
+.card__picture {
+  position: absolute;
+  left: 7%;
+  top: -22%;
+  display: none;
+}
+.card__title {
+  text-align: center;
+  color: #4a4b5e;
+  font-size: 26px;
+  margin-bottom: 1rem;
+}
+.card__item {
+  border-bottom: 1px solid #e7e7e9;
+  padding: 0.5rem 0;
+}
+.card__item > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__item > div > img {
+  width: 10px;
+  height: 7px;
+}
+.card__question {
+  color: #787887;
+  font-size: 12px;
+}
+.card__answer {
+  color: #787887;
+  font-size: 12px;
+  display: none;
 }
 
 /*# sourceMappingURL=index.css.map */
