@@ -55,6 +55,9 @@ main {
   width: 10px;
   height: 7px;
 }
+.card__item:hover * {
+  color: orange;
+}
 .card__question {
   color: #787887;
   font-size: 12px;

@@ -53,6 +53,11 @@ main {
 				height: 7px;
 			}
 		}
+		&:hover {
+			& * {
+				color: orange;	
+			}
+		}
 	}
 	&__question {
 		color: hsl(240, 6%, 50%);
