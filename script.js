@@ -13,17 +13,11 @@ const expandFaq = () => {
 				answer.style.display = 'none';
 				question.style.fontWeight = 'normal';
 				arrow.style.transform = 'rotate(0deg)';	
-				// answer.style.display = 'block';
-				// question.style.fontWeight = 'bold';
-				// arrow.style.transform = 'rotate(180deg)';
 			}
 			else {
 				answer.style.display = 'block';
 				question.style.fontWeight = 'bold';
-				arrow.style.transform = 'rotate(180deg)';
-				// answer.style.display = 'none';
-				// question.style.fontWeight = 'normal';
-				// arrow.style.transform = 'rotate(180deg)';	
+				arrow.style.transform = 'rotate(180deg)';		
 			}
 		}) 
 	}	
