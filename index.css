@@ -61,6 +61,7 @@ main {
 .card__question {
   color: #787887;
   font-size: 12px;
+  font-weight: normal;
 }
 .card__answer {
   color: #787887;
